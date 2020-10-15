@@ -64,7 +64,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--d",dest='dataset',help="imdb or sst2 or sts-b",metavar='str')
     parser.add_argument("--f",dest='path',help="data dir",metavar='path')
-    parser.add_argument("--out",dest='mode',help="binary or regression",metavar='str')
+    parser.add_argument("--out",dest='mode',help="classification or regression",metavar='str')
     parser.add_argument("--task",dest='task',help="binary or sts-b",metavar='str')
     result = parser.parse_args()
 
