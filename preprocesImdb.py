@@ -47,7 +47,7 @@ class processIMDB:
         sent = []
         for file in os.listdir(dirPath):
             if file.endswith(".txt"):
-                with open(os.path.join(dirPath, file),'r') as fp:
+                with open(os.path.join(dirPath, file),'r', errors='ignore') as fp:
                     sent.append(fp.readlines()[0])
         return sent
 
