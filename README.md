@@ -10,5 +10,5 @@ python keyboardTypos.py --d imdb --f Path To Preprocessed Imdb dataset
 ```
 4. Now start experiment by using following command.
 ```
-python run.py --d imdb -f path to noisy imdb dataset --out binary --task binary
+python run.py --d imdb --f path to noisy imdb dataset --out classification --task binary
 ```
